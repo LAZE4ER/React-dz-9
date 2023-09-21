@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+.link {
+  font-size: 40px;
+  font-size: 40px;
+  color: rgb(76, 0, 255);
+  margin: 20px;
+  display: block;
+  font-family: Kanit;
+}
+a {
+  text-decoration: none;
+}
+.text {
+  font-size: 40px;
+  color: rgb(76, 0, 255);
+  margin: 20px;
+  display: block;
+  font-family: Kanit;
+}
+.active {
+  composes: text;
+  text-decoration: underline;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+}
